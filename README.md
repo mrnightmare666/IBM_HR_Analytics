@@ -21,7 +21,8 @@ Understanding and addressing attrition is integral to fostering a stable, produc
 ![image](https://github.com/mrnightmare666/IBM_HR_Analytics/assets/53763049/e6a824c1-011a-4954-9f51-2dd4c57e284d)
 
 - Classification Report ( precision, recall, f1-score, support )
--   ![image](https://github.com/mrnightmare666/IBM_HR_Analytics/assets/53763049/9808e3d6-3621-497f-af0d-991d9b94248b)
+-   ![image](https://github.com/mrnightmare666/IBM_HR_Analytics/assets/53763049/6d4eff5e-77cb-4fdb-9c24-0184ca2ea7e9)
+
 
 
 
