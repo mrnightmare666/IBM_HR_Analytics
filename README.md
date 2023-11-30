@@ -45,16 +45,20 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 ### Predictions and Evaluations
    ![image](https://github.com/mrnightmare666/IBM_HR_Analytics/assets/53763049/6d4eff5e-77cb-4fdb-9c24-0184ca2ea7e9)
 
-The classification report shows
--- Precision: It measures the accuracy of positive predictions. For the class 'No', precision is 0.90, indicating that among all instances predicted as 'No', 90% are actually 'No'. For the class 'Yes', precision is 0.62, indicating that among instances predicted as 'Yes', 62% are actually 'Yes'.
-   
- 
-## Results
-- PowerBI Dashboard for exploratary analysis
-![image](https://github.com/mrnightmare666/IBM_HR_Analytics/assets/53763049/e6a824c1-011a-4954-9f51-2dd4c57e284d)
+The classification report shows:
+- Precision: It measures the accuracy of positive predictions. For the class 'No', precision is 0.90, indicating that among all instances predicted as 'No', 90% are actually 'No'. For the class 'Yes', precision is 0.62, indicating that among instances predicted as 'Yes', 62% are actually 'Yes'.
+- Recall (Sensitivity): It measures the proportion of actual positive instances that were correctly predicted. For the class 'No', recall is 0.97, meaning 97% of 'No' instances were correctly predicted. For the class 'Yes', recall is 0.33, indicating that only 33% of actual 'Yes' instances were predicted correctly.
+- F1-score: It is the harmonic mean of precision and recall. It gives a balance between precision and recall. For the class 'No', the F1-score is 0.94, and for the class 'Yes', it is 0.43.
+- Support: Indicates the number of actual occurrences of each class in the test dataset. There were 255 instances of 'No' and 39 instances of 'Yes'.
+- Accuracy: Overall accuracy of the model on the test set is 0.88, meaning 88% of all predictions made by the model were correct.
+- Macro Avg: It's the average of precision, recall, and F1-score across all classes, giving each class equal weight. In this case, it's 0.76 for precision, 0.65 for recall, and 0.68 for the F1-score.
+- Weighted Avg: It's the weighted average of precision, recall, and F1-score, where each class's contribution is weighted by its support. For precision, recall, and F1-score, the weighted averages are 0.87, 0.88, and 0.87, respectively.
 
+  Considering these metrics, the model might not be optimal, especially if correctly identifying employees who might leave ('Yes') is crucial for the business.
 
-
+## Random Forest Model
+Random Forest is a machine learning method that builds multiple decision trees and merges their predictions to make more accurate and robust conclusions.
+It uses randomness and ensemble learning to improve accuracy and understand feature importance in the data.
 
 - Feature Importance Using RF
 ![image](https://github.com/mrnightmare666/IBM_HR_Analytics/assets/53763049/976ee0fd-ce1b-4038-a5cb-99370d38bf10)
