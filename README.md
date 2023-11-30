@@ -21,7 +21,7 @@ Understanding and addressing attrition is integral to fostering a stable, produc
 ![image](https://github.com/mrnightmare666/IBM_HR_Analytics/assets/53763049/e6a824c1-011a-4954-9f51-2dd4c57e284d)
 
 - Classification Report ( precision, recall, f1-score, support )
-![image](https://github.com/mrnightmare666/IBM_HR_Analytics/assets/53763049/0d767fd2-c0c3-455d-a413-cfc4efe8cc2a)
+- ![image](https://github.com/mrnightmare666/IBM_HR_Analytics/assets/53763049/0d767fd2-c0c3-455d-a413-cfc4efe8cc2a)
 
 
 - Feature Importance Using RF
